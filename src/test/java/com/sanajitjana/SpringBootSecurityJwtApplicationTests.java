@@ -1,4 +1,4 @@
-package com.bezkoder.springjwt;
+package com.sanajitjana;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.bezkoder.springjwt.security;
+package com.sanajitjana.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -17,9 +17,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.bezkoder.springjwt.security.jwt.AuthEntryPointJwt;
-import com.bezkoder.springjwt.security.jwt.AuthTokenFilter;
-import com.bezkoder.springjwt.security.services.UserDetailsServiceImpl;
+import com.sanajitjana.security.jwt.AuthEntryPointJwt;
+import com.sanajitjana.security.jwt.AuthTokenFilter;
+import com.sanajitjana.security.services.UserDetailsServiceImpl;
 
 @Configuration
 @EnableMethodSecurity
